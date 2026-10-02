@@ -1,0 +1,1 @@
+const fs=require("fs"),assert=require("assert");for(const f of ["index.html","css/style.css","js/script.js","README.md","package.json"])assert.ok(fs.existsSync(f));let j=fs.readFileSync("js/script.js","utf8");assert(j.includes("crypto.getRandomValues"));assert(j.includes("generate"));console.log("✓ Day 5 tests passed");
