@@ -22,6 +22,6 @@ git init
 git add .
 git commit -m "fix: repair password generator"
 git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/vaultkey-password-generator.git
+git remote add origin https://github.com/Vermaaditya3030/vaultkey-password-generator.git
 git push -u origin main
 ```
